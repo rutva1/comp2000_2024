@@ -20,12 +20,10 @@ Trail trail=new Trail();
 
       @Override
       public void paint(Graphics g) {
-<<<<<<< Updated upstream
+
         grid.paint(g);
-=======
-        grid.paint(g, getMousePosition());
         trail.paint(g, getMousePosition());
->>>>>>> Stashed changes
+
       }
     }
 
