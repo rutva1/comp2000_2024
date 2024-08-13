@@ -9,6 +9,7 @@ this.x=x;
 this.y=y;
 }
 public void paint(Graphics g){
+  
     g.drawRect(x,y,SIZE,SIZE);
 }
 }
